@@ -1,0 +1,43 @@
+.heading {
+    color: peachpuff;
+    background-color: coral;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 30px;
+    border-color: cornsilk;
+    border-style: double;
+    border-width: 4px;
+}
+
+.Btnn {
+    color: rgb(214, 198, 240);
+    background-color: lightcoral;
+    border-width: 5px;
+    border-color: rgb(224, 49, 255);
+    border-style: outset;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+canvas {
+    background-color: cyan;
+    border: 3px dashed crimson;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes example {
+    from {
+        box-shadow: 5px 5px 30px red;
+    }
+
+    to {
+        box-shadow: 5px 5px 30px #3bdd0a;
+    }
+
+}
